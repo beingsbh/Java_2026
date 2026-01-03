@@ -4,7 +4,7 @@ class SwapVariables {
         
         int a = 10;
         int b = 20;
-        int x =0;
+        int x ;
 System.out.println("A = "+a+"B = "+b);
 x=a;
 a=b;
