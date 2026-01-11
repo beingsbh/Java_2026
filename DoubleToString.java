@@ -3,6 +3,7 @@ public class DoubleToString {
         double x =34.890;
         String y = x+"";
        System.out.println(y);
+       
     }
     
 }
