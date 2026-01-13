@@ -1,16 +1,21 @@
+class ConstructorCall{
+
+    public ConstructorCall() {
+     
+    }
+   void display(){
+    System.out.println("Constructor Call");
+   }
+}
 public class ConstructorCreate {
 
-     ConstructorCreate() {
-    System.out.println("Constructor Caalled");
-    
-    }
-    
+   
     
     public static void main(String[] args) {
 
-       ConstructorCreate obj =  new ConstructorCreate ();
+       ConstructorCall obj =  new ConstructorCall ();
 
-      
+    obj.display();
         
     }
     

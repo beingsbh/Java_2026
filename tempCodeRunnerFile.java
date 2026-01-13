@@ -1,8 +1,8 @@
-public class ParaMeterized {
+public class tempCodeRunnerFile {
 int speed;
 String car;
 
-    public ParaMeterized(int s ,String c) {
+    public tempCodeRunnerFile(int s ,String c) {
 
         speed = s;
         c=car;
@@ -14,7 +14,7 @@ String car;
         System.out.println(car+" Top Speed Is "+ speed);
     }
     public static void main(String[] args) {
-        ParaMeterized display = new ParaMeterized(350, "Lamborghini");
+        tempCodeRunnerFile display = new tempCodeRunnerFile(350, "Lamborghini");
         display.display();
     }
     
