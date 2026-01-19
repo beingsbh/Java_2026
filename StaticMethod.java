@@ -5,7 +5,7 @@ class Student {
     String name;
     static String college = "PBC";
 
-    public static void change() {
+    static void change() {
         college = "MCC";
     }
 
@@ -15,7 +15,7 @@ class Student {
 
     }
 
-    public void display() {
+    void display() {
         System.out.println(rollNumber + " " + name + " " + college);
     }
 
@@ -24,6 +24,7 @@ class Student {
 public class StaticMethod {
 
     public static void main(String[] args) {
+        Student.change();
         Student obj = new Student(111, "Subhankar");
         obj.display();
     }
