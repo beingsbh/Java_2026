@@ -22,6 +22,6 @@ class MainProgram {
     }
 
     public static void main(String args[]) {
-        MainProgram a = new MainProgram();
+         new MainProgram();
     }
 }

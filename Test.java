@@ -20,7 +20,8 @@ public class Test {
 
     public static void main(String[] args) {
 
-        A a = new A();
+       // A a = new A();
+       // a.equals(a);
 
     }
 
